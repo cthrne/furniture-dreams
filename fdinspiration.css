@@ -1,0 +1,54 @@
+.navigation {
+    background-color: #333331;
+    padding: 6px;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Arvo', serif;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.jumbotron {
+    height: 250px;
+    font-family: 'Arvo', serif;
+    background-image: url('https://40.media.tumblr.com/1c9d3b9ccd3e382079a587167e23852d/tumblr_n3aouoiaTY1rj7v02o1_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.pinboard {
+    text-align: center;
+}
+
+.external-links {
+    background-color: #333331;
+    padding: 14px;
+}
+
+.external-links a {
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.external-links ul {
+    text-align: center;
+}
+
+.external-links li {
+    display: inline;
+}
