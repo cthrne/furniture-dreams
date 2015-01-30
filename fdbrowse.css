@@ -1,0 +1,68 @@
+.navigation {
+    background-color: #333331;
+    padding: 6px;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Arvo', serif;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.jumbotron {
+    background-image:
+url('https://38.media.tumblr.com/06e98be4bd876a3790b1cad24eb58651/tumblr_namtuoiRXc1sydk7vo1_500.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    font-family: 'Arvo', serif;
+    color: #fff;
+}
+
+.categories {
+    background-color: rgb(234, 226, 226);
+}
+
+.categories .thumbnail {
+    background-color: rgb(234, 226, 226);
+}
+
+.categories h3 {
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.categories .container .row img {
+    width: 600px;
+    height: 400px;
+}
+
+.external-links {
+    background-color: #333331;
+    padding: 14px;
+}
+
+.external-links a {
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.external-links ul {
+    text-align: center;
+}
+
+.external-links li {
+    display: inline;
+}
