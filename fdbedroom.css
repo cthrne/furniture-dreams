@@ -1,0 +1,70 @@
+.navigation {
+    background-color: #333331;
+    padding: 6px;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Arvo', serif;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.jumbotron {
+    height: 250px;
+    background-image: url('https://38.media.tumblr.com/a332466ea69757318a15157e73c5751e/tumblr_nb7ikm2shT1svp654o1_500.jpg');
+    font-family: 'Arvo', serif;
+    color: #fff;
+}
+
+.featured-look {
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.other-looks {
+    background-color: #21211b;
+    color: #fff;
+    font-family: 'Arvo', serif;
+    height: 1000px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.other-looks .row .container .thumbnail {
+    height: 210px;
+}
+
+.other-looks .row .container .thumbnail img {
+    width: 500px;
+    height: 200px;
+}
+
+.external-links {
+    background-color: #333331;
+    padding: 14px;
+}
+
+.external-links a {
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.external-links ul {
+    text-align: center;
+}
+
+.external-links li {
+    display: inline;
+}
