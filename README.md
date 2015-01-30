@@ -5,6 +5,9 @@ It's currently designed to be view-only, as in users can only view products
 available at his store and will not be able to actually purchase items due
 to other situational constraints. 
 
+site accessible here:
+http://cthrne.github.io/furniture-dreams/homepage.html
+
 Still to come: 
   - working contact submission form that would direct messages to our email
   - more detailed about me page
