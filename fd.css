@@ -1,0 +1,107 @@
+.navigation {
+    background-color: #333331;
+    padding: 6px;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Arvo', serif;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.jumbotron {
+    background-image: url('http://38.media.tumblr.com/8644e5a2cc17512a4fd54effa8ca297e/tumblr_naysan789H1r6kaa9o2_1280.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arvo', serif;
+    color: black;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.jumbotron p {   
+    font-size: 20px;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 80px;
+}
+
+.learn-more {
+    background-color: #fffff5;
+    font-family: 'Arvo', serif;
+}
+
+.learn-more h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.learn-more p {
+    font-size: 14px;
+}
+
+.brands {
+   background-color: #fffff5;
+}
+
+.brands h4 {
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.brands li {
+    display: inline;
+}
+
+.brands img {
+    text-align: center;
+    align-content: center;
+}
+<!---
+.brands .container .row .thumbnail img {
+    width: 200px;
+    height: 40px;
+} -->
+
+.thumbnail img {
+    position: relative;
+    margin-left: 50px;
+}
+
+.external-links {
+    background-color: #333331;
+    padding: 14px;
+}
+
+.external-links a {
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.external-links ul {
+    text-align: center;
+}
+
+.external-links li {
+    display: inline;
+}
