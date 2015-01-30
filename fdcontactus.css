@@ -1,0 +1,107 @@
+.navigation {
+    background-color: #333331;
+    padding: 6px;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Arvo', serif;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.jumbotron {
+    background-image: url('https://33.media.tumblr.com/1bd1529b5e774640bfcb246de73ce923/tumblr_nb6pz45sPn1sxgyu0o1_1280.jpg');
+    font-family: 'Arvo', serif;
+    height: 200px;
+    color: white;
+    background-size: cover;
+}
+
+.contact-info h4{
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contact-info th {
+    font-size: 18px;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+
+.contact-info td {
+    font-family: 'Arvo', serif;
+    font-size: 14px;
+}
+
+.contact-info p {
+    font-family: 'Arvo', serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+.email-us {
+    background-color: #FFFFF0;
+    height: 425px;
+}
+
+.email-us h3 {
+    font-family: 'Arvo', serif;
+}
+
+.email-us .container {
+    position: relative;
+    text-align: center;
+}
+
+.email-us .image {
+    text-align: right;
+    position: relative;
+    align-content: right;
+}
+
+.email-us input {
+    position: auto;
+    margin-left: 250px;
+}
+
+.email-us textarea {
+    position: auto;
+    margin-left: 250px;
+}
+
+.email-us .buttons {
+    text-align: center;
+    margin-left: 300px;
+}
+
+.external-links {
+    background-color: #333331;
+    padding: 14px;
+}
+
+.external-links a {
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.external-links ul {
+    text-align: center;
+}
+
+.external-links li {
+    display: inline;
+}
