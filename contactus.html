@@ -1,0 +1,172 @@
+<!-- 
+  Furniture Dreams Contact Us page.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FD | Contact Us</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+        <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <link rel="icon" href="http://icons.iconarchive.com/icons/ampeross/qetto-2/16/light-icon.png">
+        <link href="fdcontactus.css" rel="stylesheet">
+        
+        <!-------- -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        <!--- For Toggle Button Options -->
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $(".tooltip-examples a").tooltip({
+            placement : 'top'
+            });
+        });
+        </script>
+        <!--------- end of Button Toggle --->
+    </head>
+    
+    
+    <body>
+         <!--Notify users that email submission form is faulty.
+        <script type="text/javascript">
+            alert('Email submission form is being a bit buggy right now. Sorry for the inconvenience, but please contact us using another method in the meantime!');
+        </script>-->
+        
+        <div class="navigation">
+            <div class="container">
+                <ul class="pull-left">
+                    <li><a href="attempt1.html">Home</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li><a href="inspiration.html">Inspiration</a></li>
+                </ul>
+                <ul class="pull-right">
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!----------------------------- -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Questions? Comments? Concerns?</h1>
+                <p>Let us know what you're thinking. We're listening.</p>
+            </div>
+        </div>
+        <!------------------------------ --->
+        <div class="contact-info">
+            <div class="container">
+                <div class="row">
+                        <div class="col-md-6">
+                            <h4>Hours of Operation</h4>
+                            <table class="table table-striped" >
+                                <thead>
+                                    <th>Day</th>
+                                    <th>Hours</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sunday</td>
+                                        <td>12pm-5pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Monday</td>
+                                        <td>10am-7pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tuesday</td>
+                                        <td>10am-7pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wednesday</td>
+                                        <td>10am-7pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thursday</td>
+                                        <td>10am-7pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Friday</td>
+                                        <td>10am-7pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday</td>
+                                        <td>10am-7pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Talk to us personally.</h4>
+                            <div class="map">
+                                <div class="container">
+                                    <iframe width="600" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=203%20Euclid%20Ave%2C%20Ontario%2C%20CA%2C%20United%20States&key=AIzaSyBu731iUVShRS1oDB5usokSakR0OKx6kNg"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!----------------------------- ------>
+        <!-------- Fix the buttons so that they're side by side. 
+                    I don't really know how to. --->
+        
+        <script> 
+            function myFunction() {
+                alert("Sorry! Our submission button is broken for right now. Please email us at furnituredreamsontario@gmail.com in the meantime! Thank you!");
+            }
+        </script>
+        
+        <div class="email-us">
+            <div class="container">
+                <h3>Email us directly.</h3>
+                <div class="row">
+                    <form>
+                        <div class="col-xs-7">
+                            <input type="text" class="form-control" placeholder="Enter your name.">
+                            <br>
+                            <input type="text" class="form-control" placeholder="Enter your email.">
+                            <br>
+                        </div>
+                        <div class="col-xs-7">
+                            <textarea class="form-control" rows="6" placeholder="Let us know what you're thinking. We'll get back to you as soon as possible."></textarea>
+                            <br>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="buttons">
+                                <button onclick="myFunction()" type="submit" class="btn btn-primary">Submit</button>
+                                <INPUT TYPE="reset" class="btn btn-default">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+                
+            
+                
+            <!--------------- -->    
+            <div class="phone">
+                <div class="container">
+                    <h3>Or, give us a call at (909) 983-2094. We look forward to hearing from you soon.</h3> 
+                </div>    
+            </div>
+        </div>
+        <!----------------------------- -->
+        <div class="external-links">
+            <div class="container">
+                <ul class="tooltip-examples list-inline">
+                    <li><a href="https://twitter.com/furnituredreams" data-toggle="tooltip" data-original-title="Twitter"><img src="http://icons.iconarchive.com/icons/danleech/simple/32/twitter-icon.png"></a></li>
+                    <li><a href="#" data-toggle="tooltip" data-original-title="Facebook"><img src="http://icons.iconarchive.com/icons/danleech/simple/32/facebook-icon.png"></a></li>
+                    <li><a href="http://www.yelp.com/biz/furniture-dream-ontario" data-toggle="tooltip" data-original-title="Yelp"><img src="http://icons.iconarchive.com/icons/danleech/simple/32/yelp-icon.png"></a></li>
+                    <li><a href="#" data-toggle="tooltip" data-original-title="LinkedIn"><img src="http://icons.iconarchive.com/icons/danleech/simple/32/linkedin-icon.png"></a></li>
+                    <li><a href="http://www.pinterest.com/furnituredreams/" data-toggle="tooltip" data-original-title="Pinterest"><img src="http://icons.iconarchive.com/icons/danleech/simple/32/pinterest-icon.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!------------------------------ -->
+    </body>
+</html>
