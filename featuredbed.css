@@ -1,0 +1,58 @@
+.navigation {
+    background-color: #333331;
+    padding: 6px;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Arvo', serif;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url('http://images.furnituredealer.net/Img/products/Coaster/color/201_201309Q-b3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arvo', serif;
+    color: black;
+}
+
+.featurette-heading {
+    font-family: 'Arvo', serif;
+}
+
+.details .title {
+    font-family: 'Arvo', serif;
+}
+
+.external-links {
+    background-color: #333331;
+    padding: 14px;
+}
+
+.external-links a {
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.external-links ul {
+    text-align: center;
+}
+
+.external-links li {
+    display: inline;
+}
