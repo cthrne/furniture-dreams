@@ -15,6 +15,7 @@ Still to come:
   - contact us page have a call option that is available on Mac products with iOS 8+ 
     - not actually sure if that's possible, but that'd be cool
   - products for dining, living, and outdoor
+  - detailed pages for bedroom sets
   - "cart" - not actually a cart, but just so users can store products they're interested in
   and can reference later on, since purchasing isn't an option
   
