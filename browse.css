@@ -21,8 +21,7 @@
 }
 
 .jumbotron {
-    background-image:
-url('https://38.media.tumblr.com/06e98be4bd876a3790b1cad24eb58651/tumblr_namtuoiRXc1sydk7vo1_500.jpg');
+    background-image: url("img/browse.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
