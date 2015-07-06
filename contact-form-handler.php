@@ -33,6 +33,28 @@ if( empty($errors))
 	//redirect to the 'thank you' page
 	header('Location: contact-form-thank-you.html');
 } 
+
+server {
+    listen 80;
+    client_max_body_size 4G;
+ 
+    access_log /var/sites/webapp/logs/access.maintenance.log;
+    error_log /var/sites/webapp/logs/error.maintenance.log info;
+ 
+    server_name api.webapp.com;
+ 
+    # this guy redirects any path to /api.json
+    rewrite ^.*$ /api.json last;
+ 
+    location / {
+        root /var/sites/webapp/webapp/;
+        index api.json /api.json;
+ 
+        # this is the magic
+        error_page 405 = $uri;
+    }
+ 
+}
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
 <html>
