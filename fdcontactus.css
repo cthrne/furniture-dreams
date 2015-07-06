@@ -21,10 +21,10 @@
 }
 
 .jumbotron {
-    background-image: url('https://33.media.tumblr.com/1bd1529b5e774640bfcb246de73ce923/tumblr_nb6pz45sPn1sxgyu0o1_1280.jpg');
+    background-image: url("http://40.media.tumblr.com/9171e291f661a53539ca8fcd88b0e5dd/tumblr_nq5rasNetj1ty4dqjo8_1280.jpg");
     font-family: 'Arvo', serif;
     height: 200px;
-    color: white;
+    color: black;
     background-size: cover;
 }
 
