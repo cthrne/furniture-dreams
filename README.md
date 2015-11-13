@@ -6,7 +6,7 @@ available at his store and will not be able to actually purchase items due
 to other situational constraints. 
 
 site accessible here:
-http://cthrne.github.io/furniture-dreams/homepage.html
+http://cthrne.github.io/furniture-dreams/index.html
 
 Still to come: 
   - working contact submission form that would direct messages to our email
